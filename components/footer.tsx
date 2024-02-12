@@ -1,0 +1,67 @@
+import Image from "next/image";
+import {
+  PiFacebookLogoFill,
+  PiInstagramLogoFill,
+  PiLinkedinLogoFill,
+  PiTwitterLogoFill,
+  PiYoutubeLogoFill,
+} from "react-icons/pi";
+
+const Footer = () => {
+  return (
+    <footer className="md:flex md:items-center md:justify-center pb-10 px-8 lg:px-0 xl:w-3/4 2xl:w-[55%] mx-auto">
+      <div className="md:flex md:space-x-10 lg:space-x-32 md:px-0">
+        <div className="pt-4">
+          <Image
+            src="/logos/bird-logo.png"
+            width={1025}
+            height={500}
+            alt="logo"
+            className="w-28"
+          />
+          <div className="flex space-x-2">
+            <PiInstagramLogoFill className="text-2xl text-gray-500" />
+            <PiTwitterLogoFill className="text-2xl text-gray-500" />
+            <PiFacebookLogoFill className="text-2xl text-gray-500" />
+            <PiYoutubeLogoFill className="text-2xl text-gray-500" />
+            <PiLinkedinLogoFill className="text-2xl text-gray-500" />
+          </div>
+        </div>
+
+        <div className="space-y-6">
+          <div className="pt-10 font-medium">PRODUCT</div>
+          <div className="font-light space-y-4 text-sm">
+            <div>Home</div>
+            <div>Product</div>
+            <div>What&apos;s New</div>
+            <div>Pricing</div>
+            <div>Premium</div>
+          </div>
+        </div>
+
+        <div className="space-y-6">
+          <div className="pt-10 font-medium">USE CASES</div>
+          <div className="font-light space-y-4 text-sm">
+            <div>Company</div>
+            <div>Leadership</div>
+            <div>Customers</div>
+            <div>Diversity</div>
+          </div>
+        </div>
+
+        <div className="space-y-6">
+          <div className="pt-10 font-medium">FOR BUSINESS</div>
+          <div className="font-light space-y-4 text-sm">
+            <div>Project Management</div>
+            <div>Goal Management</div>
+            <div>Increase Productivity</div>
+            <div>Work Management</div>
+            <div>Project Planning</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
