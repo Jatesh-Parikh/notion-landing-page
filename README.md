@@ -1,4 +1,6 @@
-##Notion Landing Page using Next JS, Tailwind CSS, and Framer Motion
+## Notion Landing Page using Next JS, Tailwind CSS, and Framer Motion
+
+![notion landing page- hero section](./notion.png)
 
 A Special thanks to [Igor Codes](https://github.com/iggy-tech)
 
